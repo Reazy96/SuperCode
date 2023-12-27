@@ -1,0 +1,63 @@
+@font-face {
+  font-family: lelele;
+  src: url(./assets/fonts/lelele.ttf);
+}
+
+h3::first-letter {
+  color: red;
+  font-size: 40px;
+}
+
+ul li:first-of-type::first-letter {
+  color: yellow;
+  font-size: 40px;
+  text-decoration: overline;
+}
+
+ul li:nth-of-type(2)::first-letter {
+  color: blue;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+ul li:nth-of-type(3) {
+  text-decoration: line-through;
+}
+ul li:nth-of-type(3)::first-letter {
+  font-size: 40px;
+  color: sandybrown;
+  text-decoration: overline;
+}
+li {
+  padding-bottom: 10px;
+}
+
+div p:nth-of-type(1) {
+  font-size: 20px;
+  margin-left: 50px;
+  color: grey;
+  font-weight: bolder;
+}
+div p:nth-of-type(1)::first-letter {
+  font-size: 40px;
+  color: violet;
+}
+
+p::first-line {
+  color: green;
+}
+
+p:nth-of-type(odd)::first-line {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+section p:nth-of-type(odd)::first-letter {
+  font-size: 40px;
+  font-weight: bolder;
+  color: darkgreen;
+}
+
+section p:hover::first-line {
+  color: blue;
+}

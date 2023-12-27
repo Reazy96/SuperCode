@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/naturberge.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  width: 98vw;
+  display: inline-block;
+  text-align: right;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  list-style: none;
+  margin: 13px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+main section p:nth-of-type(1) {
+  color: yellow;
+}
+
+details {
+  padding: 20px;
+}

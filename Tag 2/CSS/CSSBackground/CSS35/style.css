@@ -1,0 +1,14 @@
+section {
+  background-image: url(./assets/img/Holzwand.avif);
+  background-size: contain;
+  text-align: center;
+  font-weight: lighter;
+  color: white;
+}
+
+article {
+  background-image: url(./assets/img/Fensterundso.avif);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}

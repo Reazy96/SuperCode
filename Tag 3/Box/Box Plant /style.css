@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: ReazySchrift;
+  src: url(./assets/font/ReazySchrift.ttf);
+}
+
+header {
+  background-image: url(./assets/img/plant.jpeg);
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  padding: 30px;
+  font-size: 50px;
+  margin: 0 0 100px 0;
+  font-family: ReazySchrift, Arial, Helvetica, sans-serif;
+}
+
+header section {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto 100px auto;
+}
+
+section h2 {
+  margin: 40px;
+}
+
+header section p {
+  margin-bottom: 60px;
+  font-size: 18px;
+}
+
+header section a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  border: 3px solid white;
+
+  padding: 15px;
+}
+
+div ul {
+  text-align: right;
+  padding: 0 150px 50px 0;
+}
+
+div ul li {
+  padding: 15px;
+}
+
+main {
+  padding: 50px;
+}
+
+main h3 {
+  text-align: center;
+  font-size: 50px;
+  padding: 50px;
+}
+
+main p {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto 50px auto;
+}
+
+main aside {
+  text-align: center;
+  border: 5px solid black;
+  width: fit-content;
+  height: 110px;
+  margin: 0 auto;
+}
+
+h4 {
+  font-size: 30px;
+  padding: 10px 10px;
+}
+
+main aside p {
+  width: 210px;
+  padding: 10px 10px;
+}
+
+footer {
+  background-color: #3a3b4a;
+  color: white;
+  padding: 41px 25px 21px 25px;
+}
+
+footer p {
+  margin-bottom: 25px;
+}
+
+footer a {
+  border: 1px solid white;
+  color: white;
+  padding: 10px 31px;
+  margin: 20px 0 0 0;
+  text-decoration: none;
+}

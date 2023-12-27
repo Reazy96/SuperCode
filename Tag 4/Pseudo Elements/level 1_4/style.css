@@ -1,0 +1,20 @@
+p {
+  border: 3px solid #ffcc00;
+  font-weight: bold;
+}
+
+p::before {
+  content: "Info";
+  font-weight: bolder;
+  background-color: #ffcc00;
+}
+
+p::after {
+  content: "\2665";
+  color: #ffcc00;
+}
+
+p::selection {
+  color: #ffcc00;
+  text-decoration: underline;
+}

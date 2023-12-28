@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: rgba(80, 80, 80, 0.5);
+  font-size: 3rem;
+  font-weight: lighter;
+  color: white;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 50px 10px 50px;
+}
+
+header {
+  background-image: url(./img/kakashi.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 25vh;
+}

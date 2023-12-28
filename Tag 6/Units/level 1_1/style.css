@@ -1,0 +1,23 @@
+img {
+  margin: 10px 5px 0 5px;
+}
+
+#pixel {
+  width: 300px;
+}
+
+#procent {
+  width: 15%;
+}
+#equaltom {
+  width: 22em;
+}
+#rootem {
+  width: 20rem;
+}
+#viewportwidth {
+  width: 20vw;
+}
+#viewportheight {
+  width: 30vh;
+}

@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: MavenPro;
+  src: url(./fonts/MavenPro.ttf);
+}
+
+html {
+  font-family: MavenPro, Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #333333;
+  color: #949494;
+
+  height: 100vh;
+}
+
+header h2 {
+  font-size: 17px;
+  padding: 15px 0 0 20px;
+  margin-bottom: 75px;
+  width: 74px;
+}
+
+header span {
+  padding-left: 7px;
+}
+
+section {
+  background: linear-gradient(#ff00ff79, #2727f0e0, #48cefa);
+  width: 300px;
+  height: 227px;
+  text-align: center;
+  color: white;
+  border-radius: 7px;
+  padding: 0 20px;
+  margin: 0 auto 150px auto;
+}
+
+section:hover {
+  background: linear-gradient(#48cefa, #2727f0e0, #ff00ff79);
+}
+
+section h3 {
+  font-size: 48px;
+}
+
+.creativ {
+  padding-bottom: 12px;
+  padding-top: 10px;
+  font-weight: 300;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.fresh {
+  padding-bottom: 30px;
+  font-weight: 300;
+  font-family: "Times New Roman", Times, serif;
+}
+
+section p {
+  padding-top: 0px 30px 0px 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+  text-align: end;
+  margin: 0 60px 170px 0;
+}
+
+li {
+  padding-bottom: 20px;
+}
+main {
+  margin-top: 300px;
+  height: 100vh;
+}
+
+.projects {
+  font-size: 100px;
+  opacity: 0.03;
+  padding-left: 25px;
+}
+
+.stuff {
+  font-size: 40px;
+  margin: -40px 0px 0px 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+main p {
+  padding-left: 30px;
+  padding-top: 35px;
+  width: 691px;
+}
+
+article img {
+  width: 690px;
+  height: 434px;
+}
+
+article {
+  width: 695px;
+
+  text-align: left;
+  margin: 216px auto 185px auto;
+}
+
+article h5 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}

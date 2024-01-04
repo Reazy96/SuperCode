@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 86vh;
+  width: 27vw;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2px 2px 15px lightgray;
+}
+
+.h1 {
+  background-color: #7a7aa2;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+h1 {
+  font-size: 45px;
+  font-weight: 300;
+  margin-left: 45px;
+  margin-bottom: 5px;
+}
+
+.h1 p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 50px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: rgb(122, 122, 162);
+  margin-left: 45px;
+}
+
+.firsth2 {
+  padding-top: 20px;
+}
+
+input[type="submit"] {
+  font-size: 16px;
+  background-color: #7a7aa2;
+  color: white;
+  padding: 1.5% 5%;
+  margin-left: 45px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  border-radius: 7px;
+}
+
+.sendagree {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sendagree label {
+  margin-right: 50px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+
+  width: 87%;
+  background-color: rgb(247, 245, 245);
+  margin: auto;
+  border-radius: 10px;
+}
+
+.box label {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.box input,
+textarea {
+  min-height: 3vh;
+  margin-bottom: 35px;
+  border: none;
+  box-shadow: 3px 3px 3px lightgray;
+}

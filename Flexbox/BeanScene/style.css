@@ -1,0 +1,164 @@
+@font-face {
+  font-family: Clicker;
+  src: url(./assets/fonts/Clicker.ttf);
+}
+@font-face {
+  font-family: playfair;
+  src: url(./assets/fonts/Playfair.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  html {
+    font-size: 62, 5%;
+  }
+}
+header {
+  min-height: 100vh;
+  background-image: url(./assets/img/coffee.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  padding: 21px 93px;
+}
+
+header h1 {
+  font-family: Clicker, Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  gap: 8vw;
+}
+
+.navbar a {
+  font-family: playfair, Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 200;
+  color: white;
+  text-decoration: none;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login a {
+  font-family: playfair, Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  padding-right: 50px;
+  font-weight: 200;
+  color: white;
+  text-decoration: none;
+}
+
+.login a:nth-of-type(2) {
+  background-color: #f9c06a;
+  padding: 30px 60px;
+  border-radius: 45px;
+  color: black;
+}
+
+.coffee {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 116px;
+}
+
+.coffee h2 {
+  font-size: 2.2rem;
+  font-weight: 100px;
+  margin-left: 250px;
+}
+.coffee h3 {
+  font-family: Clicker;
+  font-size: 20rem;
+  font-weight: 300;
+  margin-left: 250px;
+}
+
+.coffee p {
+  width: 700px;
+  font-family: playfair;
+  font-size: 1.6rem;
+  margin-left: 250px;
+  padding-top: 20px;
+  margin-bottom: 70px;
+  line-height: 50px;
+}
+
+.coffee a {
+  text-decoration: none;
+  width: fit-content;
+  background-color: #f9c06a;
+  border-radius: 45px;
+  font-family: playfair, Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  padding: 25px 60px;
+
+  color: black;
+  text-decoration: none;
+  margin-left: 250px;
+}
+
+main article {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  min-width: 40vw;
+
+  justify-content: center;
+}
+
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section h4 {
+  font-size: 5rem;
+  margin-top: 200px;
+}
+
+main section p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 600px;
+  font-family: playfair;
+  font-size: 1.9rem;
+}
+
+main section a {
+  text-decoration: none;
+  width: fit-content;
+  background-color: #f9c06a;
+  border-radius: 45px;
+  font-family: playfair, Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  padding: 25px 60px;
+
+  color: black;
+  text-decoration: none;
+}
+
+.cup {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

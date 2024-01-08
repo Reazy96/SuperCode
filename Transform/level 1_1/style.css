@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: orange;
+  transition: all 1s 0s ease-in-out;
+}
+
+section:hover {
+  transform-origin: bottom left;
+  transform: rotate(90deg) scale(2);
+}

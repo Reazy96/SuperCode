@@ -1,0 +1,42 @@
+main {
+  height: 100vh;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+div {
+  height: 40vh;
+  width: 45vh;
+}
+
+.kakashi {
+  background-image: url(./img/kakashi.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  overflow: hidden;
+}
+
+.grey {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  transition: 3s;
+  bottom: -40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grey h2 {
+  font-size: 60px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.kakashi:hover .grey {
+  bottom: 0;
+}

@@ -1,0 +1,14 @@
+section {
+  height: 50vh;
+}
+
+section div {
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  transition: 5s;
+}
+
+section div:hover {
+  width: 100vw;
+}

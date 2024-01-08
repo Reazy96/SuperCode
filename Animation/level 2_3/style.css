@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  background-color: rgb(30, 29, 29);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main section {
+  height: 50vh;
+  width: 50vh;
+  background-color: rgb(43, 42, 42);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #531ba1;
+  border-radius: 400px;
+}
+
+main section img {
+  height: 20vh;
+  width: 20vh;
+  border: 7px solid rgb(141, 155, 232);
+  border-radius: 200px;
+}
+
+main section img:hover {
+  animation: shine 3s infinite ease-in-out;
+}
+
+@keyframes shine {
+  0%,
+  100% {
+    box-shadow: 20px 20px 200px blue, 20px -20px 200px white,
+      -20px -20px 100px white;
+  }
+  50% {
+    box-shadow: -20px -20px 200px white, -20px 20px 200px blue,
+      20px 20px 100px blue;
+    transform: scale(1.2);
+  }
+}

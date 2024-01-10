@@ -1,0 +1,295 @@
+@font-face {
+  font-family: roboto300;
+  src: url(./assets/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: roboto400;
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto600;
+  src: url(./assets/fonts/Roboto-Bold.ttf);
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-color: #fbfbfb;
+}
+img {
+  max-width: 100%;
+}
+
+header {
+  height: 100vh;
+  background-image: url(./assets/img/ilustracion1.png);
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: right top;
+  max-width: 100%;
+}
+
+nav {
+  padding: 3vh 18vw;
+}
+
+nav h1 {
+  font-family: roboto400;
+  font-size: 26px;
+}
+nav p {
+  font-family: roboto400;
+  margin-bottom: 500px;
+}
+
+.wrapper {
+  padding: 10vh 20vw;
+}
+
+header .wrapper {
+  position: relative;
+}
+.animation {
+  position: absolute;
+  right: 13vw;
+  top: 13vw;
+  width: 28vw;
+  animation: bounce 1s ease-in-out infinite normal;
+}
+
+header section h2 {
+  font-family: roboto400;
+  font-size: 60px;
+  width: 520px;
+  margin-bottom: 20px;
+}
+
+header section p {
+  font-family: roboto300;
+  font-size: 23px;
+  width: 620px;
+  margin-bottom: 60px;
+  line-height: 41px;
+}
+
+header section a {
+  font-family: roboto400;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.smartphones {
+  height: 100vh;
+  background-image: url(./assets/img/images.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.idea {
+  height: 80vh;
+  margin-top: 300px;
+}
+
+.need {
+  display: flex;
+  justify-content: space-between;
+}
+.need h3 {
+  font-family: roboto600;
+  font-size: 45px;
+  width: 311px;
+}
+
+.need p {
+  font-size: 23px;
+  line-height: 35px;
+  width: 740px;
+}
+
+.learn h3 {
+  font-family: roboto600;
+  font-size: 45px;
+  width: 900px;
+  margin-left: 60px;
+  margin-top: 270px;
+}
+
+.learned {
+  height: 70vh;
+}
+
+.tips .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  max-width: 100%;
+}
+
+.tips .wrapper article {
+  position: relative;
+  margin-left: 100px;
+}
+
+.tips article img {
+  max-width: 9%;
+  position: absolute;
+  left: -80px;
+  top: -11px;
+}
+
+.tips .wrapper article h4 {
+  font-size: 25px;
+  font-family: roboto600;
+  margin-bottom: 18px;
+}
+
+.tips .wrapper article p {
+  font-size: 20px;
+  font-family: roboto300;
+  margin-bottom: 20px;
+  width: 350px;
+  line-height: 35px;
+}
+.ready {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ready h5 {
+  font-size: 35px;
+  font-family: roboto600;
+  margin-bottom: 30px;
+}
+
+.ready p {
+  font-size: 18px;
+  font-family: roboto300;
+  width: 400px;
+  text-align: center;
+}
+
+.step {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step img {
+  max-width: 40%;
+}
+
+.step article {
+  max-width: 40%;
+}
+
+.step article h6 {
+  font-size: 60px;
+}
+.step article h6:first-of-type {
+  opacity: 0.2;
+  font-family: roboto600;
+  margin-bottom: 45px;
+}
+.step article h5 {
+  font-size: 22px;
+  font-family: roboto600;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+.step article h6 {
+  font-size: 60px;
+}
+
+.step article p {
+  font-size: 18px;
+  font-family: roboto300;
+  margin-bottom: 20px;
+
+  line-height: 35px;
+}
+
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+footer {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer h5 {
+  font-size: 35px;
+  font-family: roboto600;
+  margin-bottom: 30px;
+}
+footer p {
+  font-size: 18px;
+  font-family: roboto300;
+  width: 500px;
+  margin-bottom: 70px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  text-align: center;
+  font-size: 27px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  width: 660px;
+  height: 80px;
+}
+input[type="submit"] {
+  align-self: center;
+  font-size: 23px;
+  background-color: #ff3571;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 30px;
+  width: 260px;
+  height: 60px;
+}
+input[type="submit"]:hover {
+  background: linear-gradient(to right, #ff3571, #200cb3);
+  transition: 2s;
+}
+.created {
+  position: relative;
+}
+.created p {
+  position: absolute;
+  right: 600px;
+  top: 250px;
+}
